@@ -78,12 +78,6 @@ export const assets = {
 };
 
 
-
-
-
-
-
-
 export const toolsData = [
   assets.vscode,
   assets.firebase,
