@@ -22,11 +22,9 @@ const Navbar = () => {
       </div>
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[5%] py-4 flex items-center justify-between z-50 ">
         <a href="#top">
-          <Image
-            src={assets.logo}
-            alt="Logo"
-            className="w-28 cursor-pointer mr-14"
-          />
+          <h1 className="text-3xl font-bold cursor-pointer mr-14 font-Ovo tracking-wider">
+            KeKe<span className="text-rose-500">.</span>
+          </h1>
         </a>
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg shadow-black/20 ">
           <li>
@@ -46,13 +44,6 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
-            <Image
-              src={assets.moon_icon}
-              alt="Toggle Dark Mode"
-              className="w-6"
-            />
-          </button>
           <a
             href="#contact"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4"

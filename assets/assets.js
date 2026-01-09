@@ -1,4 +1,6 @@
 import user_image from "./user-image.png";
+import github_icon from "../public/github.png";
+import linkedin_icon from "../public/linkedin.png";
 import code_icon from "./AboutMeicon/code-icon.png";
 import code_icon_dark from "./AboutMeicon/code-icon-dark.png";
 import edu_icon from "./AboutMeicon/edu-icon.png";
@@ -38,6 +40,8 @@ import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 
 export const assets = {
   user_image,
+  github_icon,
+  linkedin_icon,
   code_icon,
   code_icon_dark,
   edu_icon,
