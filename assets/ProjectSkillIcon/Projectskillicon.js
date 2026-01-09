@@ -1,0 +1,39 @@
+import docker from './docker.png';
+import fastapi from './fastapi.png';
+import jwt from './jwt.png';
+import postgresql from './postgresql.png';
+import python from './python.png';
+import tensorflow from './tensorflow.png';
+import work1 from './work-1.png';
+
+export const techLogos = {
+    "Docker": docker,
+    "FastAPI": fastapi,
+    "JWT": jwt,
+    "PostgreSQL": postgresql,
+    "Python": python,
+    "TensorFlow": tensorflow,
+};
+
+export const projectAssets = {
+    work1
+};
+
+export const projectData = [
+    {
+      title: "Pizza Delivery REST API",
+      description: "A full-stack FastAPI application featuring JWT-based authentication, complete order management system with CRUD operations, PostgreSQL database integration, and Docker containerization for seamless deployment. Includes user registration/login, order placement, order history tracking, and comprehensive API documentation.",
+      project_Image: work1,
+      technologies: ["FastAPI", "Docker", "PostgreSQL", "JWT", "Python"],
+      link: "https://pizzadeliveryapi-production.up.railway.app/docs",
+      githubLink: "https://github.com/KESHABWI/Pizza_delivery_API",
+    },
+    {
+      title: "Driver Drowsiness Detection System",
+      description: "",
+      project_Image: "/work-2.png",
+      technologies: ["TensorFlow", "OpenCV", "Python","Docker","Streamlit"],
+      link: "",
+      githubLink: "",
+    },
+  ];
