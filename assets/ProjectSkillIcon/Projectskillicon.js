@@ -6,6 +6,7 @@ import python from "./python.png";
 import tensorflow from "./tensorflow.png";
 import work1 from "./work-1.png";
 import work2 from "./work-2.png";
+import work3 from "./work-3.png";
 
 export const techLogos = {
   Docker: docker,
@@ -33,10 +34,46 @@ export const projectData = [
   },
   {
     title: "Driver Drowsiness Detection System",
-    description: "",
+    description:
+      "Real-time CNN-based system for detecting driver drowsiness from live video streams.",
     project_Image: work2,
     technologies: ["TensorFlow", "OpenCV", "Python", "Docker", "Streamlit"],
     link: "",
     githubLink: "",
+  },
+  {
+    title: "ChatMeKeKe",
+    description:
+      "AI RAG chatbot for querying PDFs with intelligent multi-agent routing, vector search, and real-time web integration.",
+    project_Image: work2,
+    technologies: [
+      "Python",
+      "FastAPI",
+      "Streamlit",
+      "LangChain",
+      "LangGraph",
+      "Pinecone",
+      "Groq",
+      "Docker",
+    ],
+    link: "https://chatmekeke.streamlit.app",
+    githubLink: "https://github.com/KESHABWI/RAG_PDF_CHATBOT",
+  },
+  {
+    title: "SmartLuga",
+    description:
+      "Diffusion-based virtual try-on system using SDXL and IP-Adapter for realistic clothing generation.",
+    project_Image: work3,
+    technologies: [
+      "PyTorch",
+      "Diffusers",
+      "TorchVision",
+      "Transformers",
+      "Hugging Face",
+      "Gradio",
+    ],
+    link: "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0",
+    githubLink:
+      "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0/tree/main",
   },
 ];
