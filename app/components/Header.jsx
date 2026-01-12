@@ -36,8 +36,8 @@ const Header = () => {
           />
         </a>
         <a
-          href="/Keshab_CV.pdf"
-          download="Keshab_CV.pdf"
+          href="/Keshab_Resume.pdf"
+          download="Keshab_Resume.pdf"
           className="px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2"
         >
           Download Resume
