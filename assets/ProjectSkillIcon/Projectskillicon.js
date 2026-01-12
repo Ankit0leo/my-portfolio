@@ -7,6 +7,7 @@ import tensorflow from "./tensorflow.png";
 import work1 from "./work-1.png";
 import work2 from "./work-2.png";
 import work3 from "./work-3.png";
+import work4 from "./work-4.png";
 
 export const techLogos = {
   Docker: docker,
@@ -31,15 +32,6 @@ export const projectData = [
     technologies: ["FastAPI", "Docker", "PostgreSQL", "JWT", "Python"],
     link: "https://pizzadeliveryapi-production.up.railway.app/docs",
     githubLink: "https://github.com/KESHABWI/Pizza_delivery_API",
-  },
-  {
-    title: "Driver Drowsiness Detection System",
-    description:
-      "Real-time CNN-based system for detecting driver drowsiness from live video streams.",
-    project_Image: work2,
-    technologies: ["TensorFlow", "OpenCV", "Python", "Docker", "Streamlit"],
-    link: "",
-    githubLink: "",
   },
   {
     title: "ChatMeKeKe",
@@ -75,5 +67,15 @@ export const projectData = [
     link: "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0",
     githubLink:
       "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0/tree/main",
+  },
+  {
+    title: "Driver Drowsiness Detection System",
+    description:
+      "Real-time CNN-based system for detecting driver drowsiness from live video streams.",
+    project_Image: work4,
+    technologies: ["TensorFlow", "OpenCV", "Python", "Docker", "Streamlit"],
+    link: "https://driverdrowsiness.streamlit.app",
+    githubLink:
+      "https://github.com/KESHABWI/Driver-Drowsiness-Detection-System-",
   },
 ];
