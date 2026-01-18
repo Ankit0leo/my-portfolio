@@ -8,6 +8,7 @@ import work1 from "./work-1.png";
 import work2 from "./work-2.png";
 import work3 from "./work-3.png";
 import work4 from "./work-4.png";
+import work5 from "./work-5.png";
 
 export const techLogos = {
   Docker: docker,
@@ -21,9 +22,21 @@ export const techLogos = {
 export const projectAssets = {
   work1,
   work2,
+  work3,
+  work4,
+  work5,
 };
 
 export const projectData = [
+  {
+    title: "Revly[Full Stack Hotel Booking Website]",
+    description:
+      "A modern hotel booking platform built with React and Tailwind CSS featuring user hotel reservations, partner registration system for listing rooms, booking management dashboard, and secure authentication using Clerk. Includes user signup/login, room listing management, booking history tracking, and responsive UI design.",
+    project_Image: work5,
+    technologies: ["React", "Tailwind CSS", "Clerk Auth", "JavaScript"],
+    link: "https://ravly.vercel.app",
+    githubLink: "https://github.com/KESHABWI/hotel_booking_website.git",
+  },
   {
     title: "Pizza Delivery REST API",
     description:
