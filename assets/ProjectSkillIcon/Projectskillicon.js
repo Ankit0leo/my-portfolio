@@ -9,6 +9,7 @@ import work2 from "./work-2.png";
 import work3 from "./work-3.png";
 import work4 from "./work-4.png";
 import work5 from "./work-5.png";
+import work6 from "./work-6.png";
 
 export const techLogos = {
   Docker: docker,
@@ -25,6 +26,7 @@ export const projectAssets = {
   work3,
   work4,
   work5,
+  work6,
 };
 
 export const projectData = [
@@ -36,6 +38,22 @@ export const projectData = [
     technologies: ["React", "Tailwind CSS", "Clerk Auth", "JavaScript"],
     link: "https://ravly.vercel.app",
     githubLink: "https://github.com/KESHABWI/hotel_booking_website.git",
+  },
+  {
+    title: "Multi-Tenant Role-Based API (RBAC SaaS Backend)",
+    description:
+      "A secure and scalable RESTful API built with Django and Django REST Framework (DRF) for multi-tenant SaaS platforms. Features strict data isolation between companies, hierarchical role-based access control (Company Admin, Master of Branches, Manager, Staff), JWT authentication, automated queryset filtering, and branch-level permission enforcement. Includes Postman collection for testing and comprehensive API documentation.",
+    project_Image: work6,
+    technologies: [
+      "Python",
+      "Django",
+      "Django REST Framework",
+      "JWT Authentication",
+      "SQLite",
+      "Postman",
+    ],
+    link: "https://github.com/KESHABWI/multi-tenant-role-based-api", // Leave empty or add deployed API URL if available
+    githubLink: "https://github.com/KESHABWI/multi-tenant-role-based-api",
   },
   {
     title: "Pizza Delivery REST API",
