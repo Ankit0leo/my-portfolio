@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRef } from "react";
-import { assets } from "@/assets/assets";
+import { assets } from "@/assets/data/assets";
 const Navbar = () => {
   const sideMenuRef = useRef();
   const openMenu = () => {
@@ -18,6 +18,7 @@ const Navbar = () => {
           src={assets.header_bg_color}
           alt="Header Background"
           className=" w-full"
+          priority={true}
         />
       </div>
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[5%] py-4 flex items-center justify-between z-50 ">

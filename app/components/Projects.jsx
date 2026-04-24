@@ -1,34 +1,72 @@
-import {
-  projectData,
-  techLogos,
-} from "@/assets/ProjectSkillIcon/Projectskillicon";
+import { projectData, techLogos } from "@/assets/data/projects";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h2 className="text-center text-5xl">My Projects</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12">
+    <motion.div 
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.1 }}
+      id="projects" 
+      className="w-full px-[12%] py-10 scroll-mt-20"
+    >
+      <motion.h2 
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true }}
+        className="text-center text-5xl"
+      >
+        My Projects
+      </motion.h2>
+      <motion.p 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        viewport={{ once: true }}
+        className="text-center max-w-2xl mx-auto mt-5 mb-12"
+      >
         Welcome to my Project Section! Explore a collection of projects
         showcasing my expertise in AI,ML and Backend technologies.
-      </p>
+      </motion.p>
 
-      <div className="flex flex-col gap-8 my-10">
+      <motion.div 
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.1 }}
+        variants={{
+          hidden: { opacity: 0 },
+          visible: {
+            opacity: 1,
+            transition: { staggerChildren: 0.2 }
+          }
+        }}
+        className="flex flex-col gap-8 my-10"
+      >
         {projectData.map((project, index) => (
-          <div
+          <motion.div
             key={index}
-            className="flex flex-col md:flex-row gap-6 border border-gray-300 rounded-xl overflow-hidden hover:shadow-xl transition-shadow duration-300"
+            variants={{
+              hidden: { opacity: 0, y: 30 },
+              visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
+            }}
+            whileHover={{ scale: 1.02 }}
+            className="flex flex-col md:flex-row gap-6 border border-gray-300 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 bg-white/50 backdrop-blur-sm"
           >
             {/* Project Image - Left Side */}
-            <div className="w-full md:w-1/3 lg:w-1/4 bg-gray-100 flex-shrink-0">
-              <Image
-                src={project.project_Image}
-                alt={project.title}
-                width={400}
-                height={400}
-                className="w-full h-full object-cover"
-              />
+            <div className="w-full md:w-1/3 lg:w-1/4 bg-gray-100 flex-shrink-0 overflow-hidden">
+              <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.4 }} className="w-full h-full">
+                <Image
+                  src={project.project_Image}
+                  alt={project.title}
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                />
+              </motion.div>
             </div>
 
             {/* Project Details - Right Side */}
@@ -42,9 +80,10 @@ const Projects = () => {
                 {/* Technology Logos */}
                 <div className="flex flex-wrap gap-3 mb-4">
                   {project.technologies.map((tech, techIndex) => (
-                    <div
+                    <motion.div
                       key={techIndex}
-                      className="flex items-center gap-2 px-3 py-2 bg-white border border-gray-200 rounded-full hover:shadow-md transition-shadow"
+                      whileHover={{ scale: 1.1, y: -2 }}
+                      className="flex items-center gap-2 px-3 py-2 bg-white border border-gray-200 rounded-full shadow-sm"
                       title={tech}
                     >
                       {techLogos[tech] && (
@@ -59,7 +98,7 @@ const Projects = () => {
                       <span className="text-sm font-medium text-gray-700">
                         {tech}
                       </span>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
               </div>
@@ -67,7 +106,8 @@ const Projects = () => {
               {/* View Project and GitHub Links */}
               <div className="flex gap-3 flex-wrap">
                 {project.link && (
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.05, x: 5 }}
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -87,10 +127,11 @@ const Projects = () => {
                       />
                     </svg>
                     View Website
-                  </a>
+                  </motion.a>
                 )}
                 {project.githubLink && (
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.05, x: 5 }}
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -104,14 +145,14 @@ const Projects = () => {
                       <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                     </svg>
                     GitHub
-                  </a>
+                  </motion.a>
                 )}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

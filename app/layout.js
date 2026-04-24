@@ -12,8 +12,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - KeshabKamal",
-  description: "",
+  title: "Portfolio - Keshab Kamal",
+  description: "Portfolio of Keshab Kamal, a Python Backend Developer & Project Lead specializing in multi-tenant SaaS architectures, real-time systems, and AI-driven applications.",
 };
 
 export default function RootLayout({ children }) {
