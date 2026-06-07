@@ -52,39 +52,32 @@ export const projectData = [
   {
     title: "3D Animated Design",
     description:
-      "Designed a modern 3D-inspired UI concept in Figma and brought it to life using Anima for interactive prototyping and animations. Created engaging layouts with gradients, layered components, and dynamic visual elements while maintaining clean spacing and user-centered design principles. Delivered a visually appealing and immersive interface experience.",
-    project_Image: work3,
+      "Designed a modern 3D-inspired UI concept in Figma and brought it to life using Anima for interactive prototyping and animations. Created engaging layouts with gradients, layered components, and dynamic visual elements while maintaining clean spacing and user-centered design principles.",
+    project_Image: work4,
     link: "https://www.figma.com/design/MwJOATnXDFBEyjG5aqTDoP/3d-animated?node-id=0-1&t=Nuou6pCRVCKfHtxD-1",
   },
 
   {
-    title: " Mobile App Travel Design",
+    title: "Travel Booking App Design",
     description:
-      "Designed a modern Travel Booking Mobile App in Figma. Created user-friendly screens for searching destinations, booking trips, and managing travel plans. Applied clean layouts, consistent colors, typography, and reusable components to provide a smooth and enjoyable user experience.",
-    project_Image: work3,
+      "Designed a modern Travel Booking Mobile App in Figma. Created user-friendly screens for searching destinations, booking trips, and managing travel plans with clean layouts and reusable components.",
+    project_Image: work5,
     link: "https://www.figma.com/design/SlAWbbw3xPCOnvOyGkecM7/Travel?node-id=0-1&t=x4x3Yrb7DUG7WLsl-1",
   },
 
   {
-    title: " Rotated Pizza Selection App Design",
+    title: "Rotated Pizza Selection App Design",
     description:
-      "The design is a creative UI concept where pizza elements are arranged in a circular, rotated layout to make the interface look dynamic and modern. It uses Figma tools like rotation, positioning, layering, and alignment to place shapes and text in a circular flow, creating a visually appealing composition that feels interactive and engaging for users.",
-    project_Image: work3,
-    link: "https://www.figma.com/design/kT03CnxQ4i10kRep3rrVIo/rotated-pizza?node-id=0-1&t=k4ITYqsWzZfEXaJS-1",
-  },
-
-  {
-    title: " Rotated Pizza Selection App Design",
-    description:
-      "The design is a creative UI concept where pizza elements are arranged in a circular, rotated layout to make the interface look dynamic and modern. It uses Figma tools like rotation, positioning, layering, and alignment to place shapes and text in a circular flow, creating a visually appealing composition that feels interactive and engaging for users.",
-    project_Image: work3,
+      "A creative UI concept where pizza elements are arranged in a circular rotated layout using Figma tools like rotation, layering, alignment, and positioning to create a dynamic and engaging interface.",
+    project_Image: work6,
     link: "https://www.figma.com/design/kT03CnxQ4i10kRep3rrVIo/rotated-pizza?node-id=0-1&t=k4ITYqsWzZfEXaJS-1",
   },
 
   {
     title: "Interior Design Figma Project",
     description:
-      "The interior design Figma project is a modern UI concept that focuses on showcasing home and space design ideas in a clean and elegant layout. It uses Figma tools like grids, alignment, spacing, typography, and image placement to create a balanced visual structure. The design highlights different interior styles and sections, making the interface simple, professional, and visually appealing for users.",
-    project_Image: work3,
+      "A modern UI concept focusing on clean layout and interior design presentation using grids, spacing, typography, and image alignment to create a professional and visually appealing interface.",
+    project_Image: work7,
     link: "https://www.figma.com/design/qW98B0uYUd1K2rqgxUkcZ6/interior?node-id=0-1&t=o1No7midXQFtjhoN-1",
   },
+];
