@@ -42,74 +42,49 @@ export const projectData = [
   },
 
   {
-    title: "Smoothie Selection Mobile App Design",
+    title: "Smoothie Selection App Design",
     description:
       "Designed a modern and visually engaging Smoothie Selection Mobile App in Figma. Created intuitive user flows for browsing smoothies, viewing product details, customizing orders, and managing purchases. Applied responsive layouts, reusable components, and user-centered UI/UX principles to deliver a seamless mobile experience.",
     project_Image: work3,
-    link: "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0",
+    link: "https://www.figma.com/design/uRO0jIi8PYEep81Rk5gTSh/Smoothie?node-id=0-1&t=VfHOgTcFagzobwLZ-1",
   },
 
   {
-    title: "Driver Drowsiness Detection",
+    title: "3D Animated Design",
     description:
-      "Engineered a real-time computer vision pipeline to classify driver fatigue monitoring eye-closure patterns via a CNN model. Optimized for low-latency execution, achieving 30+ FPS and integrated into a Streamlit dashboard for real-time alerting.",
-    project_Image: work4,
-    technologies: ["TensorFlow", "OpenCV", "Python", "Docker", "Streamlit"],
-    link: "https://driverdrowsiness.streamlit.app",
-    githubLink:
-      "https://github.com/KESHABWI/Driver-Drowsiness-Detection-System-",
+      "Designed a modern 3D-inspired UI concept in Figma and brought it to life using Anima for interactive prototyping and animations. Created engaging layouts with gradients, layered components, and dynamic visual elements while maintaining clean spacing and user-centered design principles. Delivered a visually appealing and immersive interface experience.",
+    project_Image: work3,
+    link: "https://www.figma.com/design/MwJOATnXDFBEyjG5aqTDoP/3d-animated?node-id=0-1&t=Nuou6pCRVCKfHtxD-1",
   },
 
   {
-    title: "Multi-Tenant SaaS API (RBAC)",
+    title: " Mobile App Travel Design",
     description:
-      "Designed a secure multi-tenant RESTful API featuring strict schema-based data isolation and hierarchical Role-Based Access Control (RBAC). Implemented custom DRF permission classes and JWT-based authentication to enforce branch-level access control.",
-    project_Image: work6,
-    technologies: [
-      "Python",
-      "Django",
-      "Django REST Framework",
-      "JWT",
-      "PostgreSQL",
-      "Docker",
-    ],
-    link: "https://github.com/KESHABWI/multi-tenant-role-based-api",
-    githubLink:
-      "https://github.com/KESHABWI/multi-tenant-role-based-api",
+      "Designed a modern Travel Booking Mobile App in Figma. Created user-friendly screens for searching destinations, booking trips, and managing travel plans. Applied clean layouts, consistent colors, typography, and reusable components to provide a smooth and enjoyable user experience.",
+    project_Image: work3,
+    link: "https://www.figma.com/design/SlAWbbw3xPCOnvOyGkecM7/Travel?node-id=0-1&t=x4x3Yrb7DUG7WLsl-1",
   },
 
   {
-    title: "SnapLink: URL Management Platform",
+    title: " Rotated Pizza Selection App Design",
     description:
-      "Engineered a premium URL shortener with custom aliases, expiration logic, real-time click analytics, and dynamic QR code generation. Containerized the stack using Docker to ensure consistent environments and simplified deployment.",
-    project_Image: work7,
-    technologies: [
-      "Python",
-      "Django",
-      "Redis",
-      "Docker",
-      "Bootstrap 5",
-      "PostgreSQL",
-    ],
-    link: "https://github.com/KESHABWI/url-shortener-django",
-    githubLink:
-      "https://github.com/KESHABWI/url-shortener-django",
+      "The design is a creative UI concept where pizza elements are arranged in a circular, rotated layout to make the interface look dynamic and modern. It uses Figma tools like rotation, positioning, layering, and alignment to place shapes and text in a circular flow, creating a visually appealing composition that feels interactive and engaging for users.",
+    project_Image: work3,
+    link: "https://www.figma.com/design/kT03CnxQ4i10kRep3rrVIo/rotated-pizza?node-id=0-1&t=k4ITYqsWzZfEXaJS-1",
   },
 
   {
-    title: "Pizza Delivery API",
+    title: " Rotated Pizza Selection App Design",
     description:
-      "Built a high-performance order management API featuring real-time order tracking, JWT security, and Dockerized infrastructure. Integrated PostgreSQL for persistent storage and implemented comprehensive CRUD operations for order management.",
-    project_Image: work1,
-    technologies: [
-      "FastAPI",
-      "PostgreSQL",
-      "SQLAlchemy",
-      "JWT",
-      "Docker",
-    ],
-    link: "https://pizzadeliveryapi-production.up.railway.app/docs",
-    githubLink:
-      "https://github.com/KESHABWI/Pizza_delivery_API",
+      "The design is a creative UI concept where pizza elements are arranged in a circular, rotated layout to make the interface look dynamic and modern. It uses Figma tools like rotation, positioning, layering, and alignment to place shapes and text in a circular flow, creating a visually appealing composition that feels interactive and engaging for users.",
+    project_Image: work3,
+    link: "https://www.figma.com/design/kT03CnxQ4i10kRep3rrVIo/rotated-pizza?node-id=0-1&t=k4ITYqsWzZfEXaJS-1",
   },
-];
+
+  {
+    title: "Interior Design Figma Project",
+    description:
+      "The interior design Figma project is a modern UI concept that focuses on showcasing home and space design ideas in a clean and elegant layout. It uses Figma tools like grids, alignment, spacing, typography, and image placement to create a balanced visual structure. The design highlights different interior styles and sections, making the interface simple, professional, and visually appealing for users.",
+    project_Image: work3,
+    link: "https://www.figma.com/design/qW98B0uYUd1K2rqgxUkcZ6/interior?node-id=0-1&t=o1No7midXQFtjhoN-1",
+  },
