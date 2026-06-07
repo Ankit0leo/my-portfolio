@@ -4,6 +4,7 @@ import jwt from "../tech/jwt.png";
 import postgresql from "../tech/postgresql.png";
 import python from "../tech/python.png";
 import tensorflow from "../tech/tensorflow.png";
+
 import work1 from "../projects/work-1.png";
 import work2 from "../projects/work-2.png";
 import work3 from "../projects/work-3.png";
@@ -37,28 +38,17 @@ export const projectData = [
     description:
       "Designed a high-fidelity Burger Ordering Mobile App in Figma featuring user authentication, menu browsing, food customization, cart management, and checkout workflows. Utilized reusable components, Auto Layout, and modern UI/UX principles to create a scalable and responsive design system that enhances user engagement and ordering efficiency.",
     project_Image: work2,
-    technologies: [
-      "Figma",
-    ],
     link: "https://www.figma.com/design/igXcEvy3rosTDgnFJPU7gm/burgerui-app?node-id=0-1&t=rDX1hrcO8UpuGzEc-1",
   },
+
   {
-    title: "SmartLuga: Virtual Try-On",
+    title: "Smoothie Selection Mobile App Design",
     description:
-      "Developed a diffusion-based virtual try-on system using SDXL and IP-Adapter to generate realistic digital clothing overlays. Preserved garment textures and spatial consistency through fine-tuned models and integrated a Gradio interface for real-time demonstrations.",
+      "Designed a modern and visually engaging Smoothie Selection Mobile App in Figma. Created intuitive user flows for browsing smoothies, viewing product details, customizing orders, and managing purchases. Applied responsive layouts, reusable components, and user-centered UI/UX principles to deliver a seamless mobile experience.",
     project_Image: work3,
-    technologies: [
-      "PyTorch",
-      "Stable Diffusion",
-      "Hugging Face",
-      "Diffusers",
-      "Transformers",
-      "Gradio",
-    ],
     link: "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0",
-    githubLink:
-      "https://huggingface.co/spaces/Keshabwi66/SmartLuga1.0/tree/main",
   },
+
   {
     title: "Driver Drowsiness Detection",
     description:
@@ -69,6 +59,7 @@ export const projectData = [
     githubLink:
       "https://github.com/KESHABWI/Driver-Drowsiness-Detection-System-",
   },
+
   {
     title: "Multi-Tenant SaaS API (RBAC)",
     description:
@@ -83,8 +74,10 @@ export const projectData = [
       "Docker",
     ],
     link: "https://github.com/KESHABWI/multi-tenant-role-based-api",
-    githubLink: "https://github.com/KESHABWI/multi-tenant-role-based-api",
+    githubLink:
+      "https://github.com/KESHABWI/multi-tenant-role-based-api",
   },
+
   {
     title: "SnapLink: URL Management Platform",
     description:
@@ -99,15 +92,24 @@ export const projectData = [
       "PostgreSQL",
     ],
     link: "https://github.com/KESHABWI/url-shortener-django",
-    githubLink: "https://github.com/KESHABWI/url-shortener-django",
+    githubLink:
+      "https://github.com/KESHABWI/url-shortener-django",
   },
+
   {
     title: "Pizza Delivery API",
     description:
       "Built a high-performance order management API featuring real-time order tracking, JWT security, and Dockerized infrastructure. Integrated PostgreSQL for persistent storage and implemented comprehensive CRUD operations for order management.",
     project_Image: work1,
-    technologies: ["FastAPI", "PostgreSQL", "SQLAlchemy", "JWT", "Docker"],
+    technologies: [
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "JWT",
+      "Docker",
+    ],
     link: "https://pizzadeliveryapi-production.up.railway.app/docs",
-    githubLink: "https://github.com/KESHABWI/Pizza_delivery_API",
+    githubLink:
+      "https://github.com/KESHABWI/Pizza_delivery_API",
   },
 ];
