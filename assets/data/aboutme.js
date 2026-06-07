@@ -10,7 +10,7 @@ export const infoList = [
     icon: code_icon,
     iconDark: code_icon_dark,
     title: "Languages",
-    description: "Python, SQL, JavaScript, C/C++, HTML/CSS",
+    description: "SQL, C/C++, HTML/CSS",
   },
   {
     icon: edu_icon,
@@ -22,6 +22,6 @@ export const infoList = [
     icon: project_icon,
     iconDark: project_icon_dark,
     title: "Experience",
-    description: "Backend Lead & 6+ Major Projects",
+    description: "UI/UX Designer& 6+ Projects",
   },
 ];
