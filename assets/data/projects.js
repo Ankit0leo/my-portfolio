@@ -33,7 +33,7 @@ export const projectAssets = {
 
 export const projectData = [
   {
-    title: "AI RAG Chatbot (ChatMeKeKe)",
+    title: "AI RAG Chatbot (ChatMeAnkit)",
     description:
       "Architected a Retrieval-Augmented Generation (RAG) chatbot enabling high-precision querying of PDF documents via a multi-agent orchestration system. Orchestrated intelligent workflows using LangGraph for automated routing between local vector storage and real-time web search.",
     project_Image: work2,
@@ -47,7 +47,7 @@ export const projectData = [
       "Docker",
       "Streamlit",
     ],
-    link: "https://chatmekeke.streamlit.app",
+    link: "https://chatmeAnkit.streamlit.app",
     githubLink: "https://github.com/KESHABWI/RAG_PDF_CHATBOT",
   },
   {

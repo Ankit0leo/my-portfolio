@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="mt-20">
       <div className="text-center">
         <h1 className="text-3xl font-bold cursor-pointer font-Ovo tracking-wider">
-          KeKe<span className="text-rose-500">.</span>
+          Ankit<span className="text-rose-500">.</span>
         </h1>
         <div className="w-max flex items-center gap-2 mx-auto mt-5">
           <a href="mailto:keshabwii66@gmail.com" className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300">
@@ -23,7 +23,7 @@ const Footer = () => {
 
       <div className="text-center sm:flex items-center justify-between border-t border-gray-200 mx-[10%] mt-12 py-6">
         <p className="text-gray-500 font-Outfit text-sm">
-          © 2024 KeKe. All rights reserved.
+          © 2024 Ankit. All rights reserved.
         </p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0 font-Outfit text-sm">
           <li>

@@ -35,7 +35,7 @@ const Header = () => {
         />
       </motion.div>
       <motion.h3 variants={itemVariants} className="flex items-end gap-2 text-xl md:text-2xl mb-3">
-        Hi! I&apos;m KESHAB KAMAL
+        Hi! I&apos;m Ankit Bhandari
         <motion.div
           animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
           transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 3 }}

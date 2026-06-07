@@ -13,7 +13,7 @@ A highly optimized, production-ready personal portfolio built with **Next.js 15+
 ## 💼 Featured Work
 
 This portfolio highlights 6+ major production-grade projects, including:
-1. **AI RAG Chatbot (ChatMeKeKe)**: LangGraph/LangChain orchestrated multi-agent PDF querying system.
+1. **AI RAG Chatbot (ChatMeAnkit)**: LangGraph/LangChain orchestrated multi-agent PDF querying system.
 2. **Multi-Tenant SaaS API**: Enterprise-grade RBAC and data-isolation with Django REST Framework.
 3. **SmartLuga Virtual Try-On**: Generative diffusion model (SDXL) application.
 4. **Driver Drowsiness Detection**: Low-latency Computer Vision pipeline.

@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav className="w-full fixed px-5 lg:px-8 xl:px-[5%] py-4 flex items-center justify-between z-50 ">
         <a href="#top">
           <h1 className="text-3xl font-bold cursor-pointer mr-14 font-Ovo tracking-wider">
-            KeKe<span className="text-rose-500">.</span>
+            Ankit<span className="text-rose-500">.</span>
           </h1>
         </a>
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg shadow-black/20 ">
