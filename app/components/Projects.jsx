@@ -78,29 +78,32 @@ const Projects = () => {
                 <p className="text-gray-600 mb-4">{project.description}</p>
 
                 {/* Technology Logos */}
-                <div className="flex flex-wrap gap-3 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
-                    <motion.div
-                      key={techIndex}
-                      whileHover={{ scale: 1.1, y: -2 }}
-                      className="flex items-center gap-2 px-3 py-2 bg-white border border-gray-200 rounded-full shadow-sm"
-                      title={tech}
-                    >
-                      {techLogos[tech] && (
-                        <Image
-                          src={techLogos[tech]}
-                          alt={tech}
-                          width={24}
-                          height={24}
-                          className="w-6 h-6 object-contain"
-                        />
-                      )}
-                      <span className="text-sm font-medium text-gray-700">
-                        {tech}
-                      </span>
-                    </motion.div>
-                  ))}
-                </div>
+               {/* Technology Logos */}
+{project.technologies && project.technologies.length > 0 && (
+  <div className="flex flex-wrap gap-3 mb-4">
+    {project.technologies.map((tech, techIndex) => (
+      <motion.div
+        key={techIndex}
+        whileHover={{ scale: 1.1, y: -2 }}
+        className="flex items-center gap-2 px-3 py-2 bg-white border border-gray-200 rounded-full shadow-sm"
+        title={tech}
+      >
+        {techLogos[tech] && (
+          <Image
+            src={techLogos[tech]}
+            alt={tech}
+            width={24}
+            height={24}
+            className="w-6 h-6 object-contain"
+          />
+        )}
+        <span className="text-sm font-medium text-gray-700">
+          {tech}
+        </span>
+      </motion.div>
+    ))}
+  </div>
+)}
               </div>
 
               {/* View Project and GitHub Links */}
