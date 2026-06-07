@@ -47,7 +47,7 @@ export const projectData = [
       "Docker",
       "Streamlit",
     ],
-    link: "https://chatmeAnkit.streamlit.app",
+    link: "https://www.figma.com/design/uRO0jIi8PYEep81Rk5gTSh/Smoothie?node-id=0-1&t=kmNjFWgwZaYDkvmw-1",
     githubLink: "https://github.com/KESHABWI/RAG_PDF_CHATBOT",
   },
   {

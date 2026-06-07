@@ -22,68 +22,100 @@ const ParticleBackground = () => {
       className="fixed inset-0 w-full h-full -z-10"
       options={{
         background: {
-          color: {
-            value: "transparent",
-          },
+          color: { value: "transparent" },
         },
         fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
               enable: true,
-              mode: "push",
+              mode: "bubble",         // Bubble burst on click
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",           // Grab & connect on hover
             },
           },
           modes: {
-            push: {
-              quantity: 4,
+            bubble: {
+              distance: 200,
+              size: 8,
+              duration: 2,
+              opacity: 0.8,
             },
-            repulse: {
-              distance: 100,
-              duration: 0.4,
+            grab: {
+              distance: 180,
+              links: {
+                opacity: 0.6,
+              },
             },
           },
         },
         particles: {
           color: {
-            value: "#f43f5e",
+            value: ["#f43f5e", "#a855f7", "#3b82f6", "#06b6d4"], // Multi-color
           },
           links: {
-            color: "#f43f5e",
-            distance: 150,
+            color: "#a855f7",
+            distance: 130,
             enable: true,
-            opacity: 0.3,
-            width: 1,
+            opacity: 0.25,
+            width: 1.2,
+            triangles: {
+              enable: true,           // Draws triangles between particles
+              opacity: 0.05,
+            },
           },
           move: {
             direction: "none",
             enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 3,
+            outModes: { default: "out" }, // Particles drift off & reappear
+            random: true,
+            speed: { min: 0.5, max: 2 }, // Varied speed = more natural
             straight: false,
+            attract: {
+              enable: true,
+              rotate: { x: 600, y: 1200 }, // Slight gravitational pull
+            },
           },
           number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
+            density: { enable: true, area: 900 },
+            value: 90,
           },
           opacity: {
-            value: 0.5,
+            value: { min: 0.2, max: 0.7 }, // Fading in/out effect
+            animation: {
+              enable: true,
+              speed: 1,
+              sync: false,
+            },
           },
           shape: {
-            type: "circle",
+            type: ["circle", "triangle"], // Mix of shapes
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 4 },
+            animation: {
+              enable: true,             // Particles pulse in size
+              speed: 3,
+              sync: false,
+            },
+          },
+          rotate: {
+            value: { min: 0, max: 360 },
+            animation: {
+              enable: true,
+              speed: 5,
+              sync: false,
+            },
+          },
+          twinkle: {
+            particles: {
+              enable: true,             // Sparkle effect ✨
+              frequency: 0.05,
+              color: "#ffffff",
+              opacity: 1,
+            },
           },
         },
         detectRetina: true,
