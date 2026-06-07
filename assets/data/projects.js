@@ -33,22 +33,14 @@ export const projectAssets = {
 
 export const projectData = [
   {
-    title: "AI RAG Chatbot (ChatMeAnkit)",
+    title: "Food Ordering App Design",
     description:
-      "Architected a Retrieval-Augmented Generation (RAG) chatbot enabling high-precision querying of PDF documents via a multi-agent orchestration system. Orchestrated intelligent workflows using LangGraph for automated routing between local vector storage and real-time web search.",
+      "Designed a high-fidelity Burger Ordering Mobile App in Figma featuring user authentication, menu browsing, food customization, cart management, and checkout workflows. Utilized reusable components, Auto Layout, and modern UI/UX principles to create a scalable and responsive design system that enhances user engagement and ordering efficiency.",
     project_Image: work2,
     technologies: [
-      "Python",
-      "FastAPI",
-      "LangChain",
-      "LangGraph",
-      "Pinecone",
-      "Groq",
-      "Docker",
-      "Streamlit",
+      "Figma",
     ],
-    link: "https://www.figma.com/design/uRO0jIi8PYEep81Rk5gTSh/Smoothie?node-id=0-1&t=kmNjFWgwZaYDkvmw-1",
-    githubLink: "https://github.com/KESHABWI/RAG_PDF_CHATBOT",
+    link: "https://www.figma.com/design/igXcEvy3rosTDgnFJPU7gm/burgerui-app?node-id=0-1&t=rDX1hrcO8UpuGzEc-1",
   },
   {
     title: "SmartLuga: Virtual Try-On",
