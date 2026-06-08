@@ -67,8 +67,8 @@ const Header = () => {
         <motion.a
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          href="/resume/Keshab_Resume.pdf"
-          download="Keshab_Kamal_Resume.pdf"
+          href="/resume/Ankit_Resume.pdf"
+          download="Ankit_Bhandari_Resume.pdf"
           className="px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2"
         >
           Download Resume
