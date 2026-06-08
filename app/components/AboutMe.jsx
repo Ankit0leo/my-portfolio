@@ -51,7 +51,7 @@ const AboutMe = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            variants={{
+            variants={{ 
               hidden: { opacity: 0 },
               visible: {
                 opacity: 1,

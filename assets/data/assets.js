@@ -1,4 +1,4 @@
-import user_image from "../profile/user-image.png";
+import user_image from "../profile/user.png";
 import github_icon from "../ui/github.png";
 import linkedin_icon from "../ui/linkedin.png";
 import code_icon from "../ui/code-icon.png";
@@ -8,7 +8,7 @@ import edu_icon_dark from "../ui/edu-icon-dark.png";
 import project_icon from "../ui/project-icon.png";
 import project_icon_dark from "../ui/project-icon-dark.png";
 import vscode from "../tech/vscode.png";
-import profile_img from "../profile/profile-img.png";
+import profile_img from "../profile/profile.png";
 import firebase from "../tech/firebase.png";
 import figma from "../tech/figma.png";
 import git from "../tech/git.png";
