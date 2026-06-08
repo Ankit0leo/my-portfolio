@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ParticleBackground from "./components/ParticleBackground";
 
