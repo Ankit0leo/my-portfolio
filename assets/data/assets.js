@@ -10,6 +10,9 @@ import project_icon_dark from "../ui/project-icon-dark.png";
 import vscode from "../tech/vscode.png";
 import profile_img from "../profile/profile-img.png";
 import figma from "../tech/figma.png";
+import inkscape from "../tech/inkscape.png";
+import canva from "../tech/canva.png";
+import gimp from "../tech/gimp.png";
 import git from "../tech/git.png";
 import mongodb from "../tech/mongodb.png";
 import right_arrow_white from "../ui/right-arrow-white.png";
@@ -49,6 +52,9 @@ export const assets = {
   project_icon_dark,
   vscode,
   figma,
+  inkscape,
+  canva,
+  gimp,
   git,
   mongodb,
   right_arrow_white,
@@ -82,5 +88,8 @@ export const toolsData = [
   assets.vscode,
   assets.mongodb,
   assets.figma,
+  assets.inkscape,
+  assets.canva,
+  assets.gimp,
   assets.git,
 ];
