@@ -1,4 +1,4 @@
-# Professional Portfolio | Keshab Kamal
+# Professional Portfolio | Ankit Bhandari
 
 A highly optimized, production-ready personal portfolio built with **Next.js 15+** and **Tailwind CSS**. This repository showcases my professional work as a **Python Backend Developer & Project Lead**, highlighting enterprise-grade projects in Artificial Intelligence, Machine Learning, and scalable Backend Systems.
 
@@ -9,15 +9,6 @@ A highly optimized, production-ready personal portfolio built with **Next.js 15+
 - **Responsive Design**: Fluid layouts powered by Tailwind CSS ensure a seamless experience across desktop, tablet, and mobile.
 - **Integrated Contact Form**: Direct messaging capabilities powered by Web3Forms.
 - **Optimized Assets**: Next.js native Image component usage for fast-loading UI icons, project screenshots, and tech stack logos.
-
-## 💼 Featured Work
-
-This portfolio highlights 6+ major production-grade projects, including:
-1. **AI RAG Chatbot (ChatMeAnkit)**: LangGraph/LangChain orchestrated multi-agent PDF querying system.
-2. **Multi-Tenant SaaS API**: Enterprise-grade RBAC and data-isolation with Django REST Framework.
-3. **SmartLuga Virtual Try-On**: Generative diffusion model (SDXL) application.
-4. **Driver Drowsiness Detection**: Low-latency Computer Vision pipeline.
-5. **SnapLink**: High-performance URL management platform with analytics.
 
 ## 🛠 Tech Stack
 
@@ -51,7 +42,7 @@ my-portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KESHABWI/my-portfolio.git
+   git clone https://github.com/Ankit0leo/my-portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -70,9 +61,9 @@ my-portfolio/
 ## ✉️ Contact
 
 Feel free to reach out for collaborations or opportunities!
-- **Email**: keshabwii66@gmail.com
-- **LinkedIn**: [linkedin.com/in/keshab-kamal-674b86238](https://www.linkedin.com/in/keshab-kamal-674b86238/)
-- **GitHub**: [@KESHABWI](https://github.com/KESHABWI)
+- **Email**: bhandariaankit0gmail.com
+- **LinkedIn**: [linkedin.com/in/ankitbhandari1027](https://www.linkedin.com/in/ankitbhandari1027/)
+- **GitHub**: [@Ankit0leo](https://github.com/Ankit0leo)
 
 ---
 *Built with passion and a focus on clean, scalable code.*
