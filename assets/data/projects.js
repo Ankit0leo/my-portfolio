@@ -1,9 +1,5 @@
 import docker from "../tech/docker.png";
-import fastapi from "../tech/fastapi.png";
-import jwt from "../tech/jwt.png";
 import postgresql from "../tech/postgresql.png";
-import python from "../tech/python.png";
-import tensorflow from "../tech/tensorflow.png";
 
 import work1 from "../projects/work-1.png";
 import work2 from "../projects/work-2.png";
@@ -15,11 +11,7 @@ import work7 from "../projects/work-7.png";
 
 export const techLogos = {
   Docker: docker,
-  FastAPI: fastapi,
-  JWT: jwt,
   PostgreSQL: postgresql,
-  Python: python,
-  TensorFlow: tensorflow,
 };
 
 export const projectAssets = {
