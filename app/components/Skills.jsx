@@ -38,9 +38,8 @@ const Skills = () => {
         viewport={{ once: true }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        I have a diverse set of skills ranging from frontend development to machine learning and devops tools. 
-        Here are some of the technologies I work with.
-      </motion.p>
+        I have a strong passion for UI/UX design, focused on creating user-friendly and visually appealing digital experiences.
+        Here are some of the technologies I work with:      </motion.p>
 
       <motion.div 
         initial="hidden"

@@ -45,11 +45,7 @@ const AboutMe = () => {
             viewport={{ once: true }}
             className="text-lg"
           >
-            I am a high-impact <b>Python Backend Developer & Project Lead</b> with expertise in building
-            multi-tenant SaaS architectures, real-time systems, and AI-driven RAG applications.
-            Skilled in architecting secure RESTful APIs (DRF/FastAPI), orchestrating <b>LangChain/LangGraph</b> workflows,
-            and managing production-ready infrastructure on <b>AWS</b> with Docker. I am passionate about 
-            building scalable, efficient, and real-world solutions that deliver high value.
+            Motivated and creative UI/UX Designer with a strong passion for designing user-friendly and visually engaging digital experiences. Skilled in wireframing, prototyping, and responsive interface design using Figma, with a focus on clean layouts, usability, and consistent design systems. I enjoy transforming ideas into intuitive and functional interfaces that enhance user satisfaction and improve overall experience. Looking for an opportunity to grow as a UI/UX professional and contribute to real-world projects while continuously improving my design skills and creativity.
           </motion.p>
           <motion.ul 
             initial="hidden"

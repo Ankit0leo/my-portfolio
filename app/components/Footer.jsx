@@ -10,13 +10,13 @@ const Footer = () => {
           Ankit<span className="text-rose-500">.</span>
         </h1>
         <div className="w-max flex items-center gap-2 mx-auto mt-5">
-          <a href="mailto:keshabwii66@gmail.com" className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300">
+          <a href="mailto:bhandariaankit0@gmail.com" className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300">
             <Image src={assets.mail_icon} alt="Email" className="w-6" />
-            <span className="text-gray-600 font-Outfit mr-4">keshabwii66@gmail.com</span>
+            <span className="text-gray-600 font-Outfit mr-4">bhandariaankit0@gmail.com</span>
           </a>
-          <a href="tel:+9779817439773" className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300">
+          <a href="tel:+9779864987079" className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300">
             <Image src={assets.mobile_icon} alt="Phone" className="w-6" />
-            <span className="text-gray-600 font-Outfit">+977 9817439773</span>
+            <span className="text-gray-600 font-Outfit">+977 9864987079</span>
           </a>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/KESHABWI"
+              href="https://github.com/Ankit0leo/"
               className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300"
             >
               <Image src={assets.github_icon} alt="GitHub" className="w-5" />
@@ -41,7 +41,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/keshab-kamal-674b86238/"
+              href="https://www.linkedin.com/in/ankitbhandari1027/"
               className="flex items-center gap-2 hover:text-rose-500 transition-colors duration-300"
             >
               <Image src={assets.linkedin_icon} alt="LinkedIn" className="w-5" />

@@ -22,6 +22,6 @@ export const infoList = [
     icon: project_icon,
     iconDark: project_icon_dark,
     title: "Experience",
-    description: "UI/UX Designer& 6+ Projects",
+    description: "UI/UX Designer & 6+ Projects",
   },
 ];

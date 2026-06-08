@@ -44,11 +44,11 @@ const Header = () => {
         </motion.div>
       </motion.h3>
       <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl lg:text-6xl font-Ovo leading-tight">
-        Python Backend Developer <br/> & Project Lead
+        UI/UX Designer
       </motion.h1>
       <motion.p variants={itemVariants} className="max-w-2xl mx-auto">
-        I’m passionate about building scalable multi-tenant architectures, 
-        real-time systems, and AI-driven applications.
+        I’m a UI/UX designer passionate about creating clean, user-friendly, and 
+        visually engaging digital experiences through wireframing, prototyping, and modern interface design.
       </motion.p>
       <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a

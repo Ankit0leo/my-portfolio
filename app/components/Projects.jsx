@@ -30,7 +30,7 @@ const Projects = () => {
         className="text-center max-w-2xl mx-auto mt-5 mb-12"
       >
         Welcome to my Project Section! Explore a collection of projects
-        showcasing my expertise in AI,ML and Backend technologies.
+        showcasing my expertise in UI/UX Design.
       </motion.p>
 
       <motion.div 
